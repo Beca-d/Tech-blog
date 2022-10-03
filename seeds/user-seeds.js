@@ -51,7 +51,7 @@ const userdata = [
         username: 'NinetiesGuy',
         email: 'Henri.Bass@gmail.com',
         password: 'password'
-      }
+      },
 ];
 
 const seedUsers = () => User.bulkCreate(userdata, {individualHooks: true});
