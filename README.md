@@ -49,6 +49,12 @@
   ---
   
   ## Screenshots
+  
+![techblog](https://user-images.githubusercontent.com/67708213/193643852-b7ca86f5-610a-4ac9-b1e7-a5a28f70302b.JPG)
+---
+![techblog4](https://user-images.githubusercontent.com/67708213/193644337-c716eb1d-942c-4d00-888d-3bc4f9a6082c.JPG)
+---
+![techblog5](https://user-images.githubusercontent.com/67708213/193644354-0847efdd-78fc-4ddf-8d63-7bc0e5005f54.JPG)
 
   ---
 
