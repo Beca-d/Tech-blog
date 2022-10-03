@@ -18,6 +18,7 @@
 
   .navbar a {
     color: rgb(45, 44, 44);
+    padding-left: 10px;
   }
 
   a {
