@@ -1,3 +1,5 @@
+-- DROP DATABASE --
 DROP DATABASE IF EXISTS newsfeed_db;
 
+-- CREATE DATABASE --
 CREATE DATABASE newsfeed_db;

@@ -85,8 +85,8 @@ const postdata = [
         title: 'Dragonfly Drone Sent to Saturn\'s Moon!',
         post_url: 'https://www.techeblog.com/nasa-nuclear-dragonfly-drone-saturn-titan/',
         user_id: 4
-      }
-]
+      },
+];
 
 const seedPosts = () => Post.bulkCreate(postdata);
 

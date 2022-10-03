@@ -65,8 +65,8 @@ const commentdata = [
         comment_text: 'I\'ve seen better',
         user_id: 4,
         post_id: 9
-      }
-]
+      },
+];
 
 const seedComments = () => Comment.bulkCreate(commentdata);
 
