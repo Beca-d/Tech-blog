@@ -15,7 +15,6 @@
   * [Usage](#usage)
   * [Screenshots](#screenshots)
   * [Contributing](#contributing)
-  * [Questions](#questions)
 
   ---
 
@@ -56,7 +55,7 @@
 
     To contribute to this project fork this repository, make your changes, then submit a pull request.
 
-  ---
+    ---
   
   ## Questions
 
