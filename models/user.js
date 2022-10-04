@@ -35,7 +35,8 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [4]
+        //password must be atleast 6 characters long
+        len: [6]
       }
     }
   },
