@@ -28,7 +28,8 @@ async function loginFormHandler(event) {
     const username = document.querySelector('#username-signup').value.trim();
     const email = document.querySelector('#email-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
-  
+
+    //await fetch('/api/users', { //assign the result into a variable
     if (username && email && password) {
       const response = await fetch('/api/users', {
         method: 'post',
@@ -38,10 +39,11 @@ async function loginFormHandler(event) {
           password
         }),
         headers: { 'Content-Type': 'application/json' }
-      });
+      })
   
       if (response.ok) {
-        document.location.replace('/dashboard/');
+        console.log('success')
+        document.location.replace('/');
       } else {
         alert(response.statusText);
       }
