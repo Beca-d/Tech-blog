@@ -28,7 +28,7 @@ router.get('/:id', (req, res) => {
         include: [
             {
                 model: Post,
-                attributes: ['id', 'title', 'post_url', 'created_at']
+                attributes: ['id', 'title', 'post_content', 'created_at']
             },
             {
                 model: Comment,
@@ -54,7 +54,7 @@ router.get('/:id', (req, res) => {
 
 //POST /api/users
 router.post('/',  (req, res) => {
-    //expects {username: '',email:'',password:''} INSERT INTO users (username, email, password) VALUES    ("leman", "leman@email.com", "abc1234");
+   
     User.create({
         username:req.body.username,
         email: req.body.email,
@@ -79,7 +79,7 @@ router.post('/',  (req, res) => {
 
 //POST login route
 router.post('/login',  (req, res) => {
-    //expects {email"leman@email.com", password:leman1234}
+    
     User.findOne({
         where: {
             email: req.body.email
@@ -126,7 +126,7 @@ router.post('/logout',  (req,res) => {
 //PUT /api/users/1
 router.put('/:id',  (req, res) => {
     //expects {username: '',email:'',password:''}
-    //if req.body has exact key/value pairs to match the model UPDATE users SET username = "leman", email = "leman@email.com", password = "abc1234" WHERE id = 1;
+   
     User.update(req.body, {
         //adding bcrypt hook to hash password when updated
         individualHooks: true,

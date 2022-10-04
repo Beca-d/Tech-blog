@@ -2,4 +2,4 @@
 DROP DATABASE IF EXISTS newsfeed_db;
 
 -- CREATE DATABASE --
-CREATE DATABASE newsfeed_db;
+CREATE DATABASE blogposts_db;
